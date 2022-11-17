@@ -1,4 +1,4 @@
-use std::collections::HashSet;
+// use std::collections::HashSet;
 use std::fs::File;
 use std::io::prelude::*;
 use std::io::BufReader;
@@ -37,9 +37,9 @@ pub fn run_day2() {
     println!("Checksum is {checksum}");
 }
 
-pub fn run_day2_part2() {
+/*pub fn run_day2_part2() {
     let mut f = BufReader::new(File::open("src/input/day2.txt").unwrap());
 
     let mut s = String::new();
     f.read_to_string(&mut s).unwrap();
-}
+}*/
